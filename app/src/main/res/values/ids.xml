@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_do_task" type="id"/>
+    <item name="latitude_text" type="id"/>
+    <item name="longitude_text" type="id"/>
+    <item name="TextView02" type="id"/>
+    <item name="TextView04" type="id"/>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <!--label title-->
+
+    <TextView
+        android:id="@+id/lblTitleFav"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Title"
+        android:textColor="#acacac"
+        />
+
+    <!--label place-->
+
+
+    <TextView
+        android:id="@+id/lblPlaceFav"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Place"
+        android:layout_below="@id/lblTitleFav"
+        android:textColor="#acacac"
+        />
+
+    <!--label posted-->
+
+
+    <TextView
+        android:id="@+id/lblPostedFav"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Posted"
+        android:layout_below="@id/lblPlaceFav"
+        android:textColor="#acacac"
+        />
+
+    <!--textView title-->
+
+
+    <TextView
+        android:id="@+id/txtTitleFav"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/lblTitleFav"
+        />
+
+    <!--textView place-->
+
+    <TextView
+        android:id="@+id/txtPlaceFav"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/lblTitleFav"
+        android:layout_toRightOf="@id/lblPlaceFav"
+        />
+
+    <!--textView posted-->
+
+
+    <TextView
+        android:id="@+id/txtPostedFav"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/txtPlaceFav"
+        android:layout_toRightOf="@id/lblPlaceFav"
+        />
+
+    <!--imageview -->
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="120dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:id="@+id/imageViewFav"-->
+    <!--android:layout_alignParentRight="true"-->
+
+    <!--android:contentDescription="@string/imageView"/>-->
+
+</RelativeLayout><!-- From: file:/home/glen/Desktop/Placed/app/src/main/res/layout/item_favourites.xml -->

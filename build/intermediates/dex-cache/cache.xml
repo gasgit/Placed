@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-ab957b34a51db744e9a5dba8aaccdb12a5978a01.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/libs/internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-d7c557b5bab67331c7e7be435b4391b5c04a32f9.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-78f5335f1909817bceeb78c354e4b58e3f798655.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-f4110ab5c5146177f6582ac803368134fa5a2f01.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-3d6ebf50e8bfeeaf6a2319cb8cca82e04444b90d.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-d0d601f321adecd546b5b76412cd4186bf44e7c8.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-be6eb6153fa27fcebc3783a90b0b5eb45d1c2e49.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-37cd6d6017d38cb53eed8cf6cca0589c33498df5.jar" />
+    </item>
+    <item
+        jar="/home/glen/android-sdks/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-b2d3db070c133c29ab5fdbc42f6eac20f4b5b445.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-f317cc530a58984879eb0449347bf0f80343a186.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-e137cd0dfd1863b17ce7c3fc86a6ff5449d5f189.jar" />
+    </item>
+    <item
+        jar="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-05e3f73db53c6b996c0ab0cb4a41f94f68b693e2.jar" />
+    </item>
+    <item
+        jar="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/pre-dexed/debug/classes-0b8ad5953d7ac67858fcd403f37e33a7e63d54a8.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-0a00fe0cb70e34737487a3f5b56b4492116df1ab.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-7edffaf84aa5722758e8aa2027112447e61f8267.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-602b3bfb18f20cf15bb184e098247ff60cb5d143.jar" />
+    </item>
+    <item
+        jar="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-df1bc303b84bf89fcd3a81707e7c7a8d38652539.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-360e44558940d22aa5a98bf208c7a829b95c84a2.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-bce8c9758b493aa9d4d0476cce323b1f996b05aa.jar" />
+    </item>
+    <item
+        jar="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/pre-dexed/debug/classes-d5ab9d136a9b7328082238f1e11e41d16d82e2e3.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-5a816fcae36a95411eb2416dd3d8710ace472dcb.jar" />
+    </item>
+    <item
+        jar="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/pre-dexed/debug/classes-127b6c95d154c27454ad49861845c943ced81e63.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-2a2a28cc4bf911e088c36e96cb54028d37ef814a.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-cb8add89d0ce2cfef5ba16c4c10e343ee381158e.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-8b46946b66fe02190097f569ab0a7b71cbeab8f6.jar" />
+    </item>
+    <item
+        jar="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/pre-dexed/debug/classes-04d3bc3b0c81d7aa105ff4d60fd9a48b0a4aba8a.jar" />
+    </item>
+    <item
+        jar="/home/glen/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/glen/Dropbox/AndroidStudioProjects/Placed/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-543537e3a9721bd8cc5e4e62f6d31814e9c3fded.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-212ae01d9240d9ea2d54e91d1e2ca36585d2f347.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-78cdf66133669770c40f48ab8dc48581a09dfe6e.jar" />
+    </item>
+    <item
+        jar="/home/glen/Desktop/Placed/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/glen/Desktop/Placed/app/build/intermediates/pre-dexed/debug/classes-3183b8fec6e74d7cd995e4dbf6df017b66001fca.jar" />
+    </item>
+    <item
+        jar="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/glen/AndroidStudioProjects/PlacedOld/app/build/intermediates/pre-dexed/debug/classes-4c1444a44142157575dcad412756a62c5356048b.jar" />
+    </item>
+
+</items>

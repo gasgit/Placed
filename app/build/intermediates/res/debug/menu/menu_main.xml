@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/action_settings"
+          android:title="GeoFence"
+          android:orderInCategory="100"
+          app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/oneKm"
+                  android:title="1km" />
+            <item android:id="@+id/twoKm"
+                  android:title="2km" />
+            <item android:id="@+id/fiveKm"
+                  android:title="5km" />
+            <item android:id="@+id/tenKm"
+                  android:title="10km" />
+            <item android:id="@+id/twentyKm"
+                  android:title="20km" />
+            <item android:id="@+id/fiftyKm"
+                  android:title="50km" />
+            <item android:id="@+id/twoHunKm"
+                  android:title="200km" />
+
+        </menu>
+
+    </item>
+    >
+
+
+</menu>
+<!-- From: file:/home/glen/Desktop/Placed/app/src/main/res/menu/menu_main.xml -->

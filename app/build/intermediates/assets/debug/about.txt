@@ -1,0 +1,14 @@
+Placed
+
+This application is intended as an educational project.
+
+Intended use is a user created collection of places and things of interest that other users can access when in an area.
+
+How to use.
+On opening the user has choice.
+Select get data to load a list of places from the web server. Select from the list and get more details of post, have access to maps or save to favourites onto device.
+Select map to see where the entry was posted from.Tap on the pin and have full use of google map features, streetView, current location
+and directions etc.
+Create Place where the user can add a new entry and post to the server.
+Select favourites to see favourites saved to device, review later and delete when finished.
+.

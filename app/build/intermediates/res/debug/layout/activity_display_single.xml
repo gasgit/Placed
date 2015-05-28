@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:screenOrientation="portrait"
+              style="@android:style/TextAppearance.Medium"
+
+    >
+
+    <!--id label -->
+
+    <TextView
+        android:id="@+id/lblId"
+        android:layout_height="30dp"
+        android:layout_width="55dp"
+        android:layout_margin="2dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+        android:text="ID: "
+
+        />
+
+    <!--id textView-->
+
+    <TextView
+        android:id="@+id/lrgTxId"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:textColor="#43bd00"
+        android:layout_toRightOf="@id/lblId"
+       />
+
+    <!--title label-->
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_height="30dp"
+        android:layout_width="55dp"
+        android:text="Title: "
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+
+        android:layout_margin="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lblId"
+
+        />
+
+    <!--place textView-->
+
+
+    <TextView
+        android:id="@+id/lrgTxTitle"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+       android:layout_below="@id/lrgTxId"
+       android:layout_toRightOf="@id/lblTitle"
+        />
+
+    <!--place label-->
+
+    <TextView
+        android:id="@+id/lblPlace"
+        android:layout_height="30dp"
+        android:layout_width="55dp"
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+
+        android:text="Place: "
+        android:layout_margin="2dp"
+        android:layout_below="@+id/lblTitle"
+        android:layout_alignParentLeft="true"
+       />
+
+    <!--place textView-->
+
+
+    <TextView
+        android:id="@+id/lrgTxPlaces"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_below="@id/lblTitle"
+        android:layout_toRightOf="@id/lblPlace"
+        />
+
+    <!--image view-->
+
+
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:id="@+id/lrgImageView"
+        android:layout_margin="2dp"
+        android:layout_below="@id/lrgTxPlaces"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!--comment label-->
+
+
+    <TextView
+        android:id="@+id/lblComments"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+
+        android:text="Comment: "
+        android:layout_margin="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lrgImageView"
+
+
+        />
+
+    <!--comment textView-->
+
+
+    <TextView
+        android:id="@+id/lrgTxComments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_below="@id/lrgImageView"
+        android:layout_toRightOf="@id/lblComments"
+        android:scrollbars="vertical"
+        android:isScrollContainer="true"
+        />
+    <!--lat label-->
+
+    <TextView
+        android:id="@+id/lblLat"
+        android:layout_height="30dp"
+        android:layout_width="75dp"
+        android:layout_margin="2dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+
+        android:text="Lat: "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lrgTxComments"
+
+        />
+    <!--lat textView-->
+
+    <TextView
+        android:id="@+id/lrgTxLat"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_marginTop="1dp"
+
+        android:layout_below="@id/lrgTxComments"
+        android:layout_toRightOf="@id/lblLat"
+        />
+
+    <!--long label -->
+
+
+
+
+
+    <TextView
+        android:id="@+id/lblLng"
+        android:layout_height="30dp"
+        android:layout_width="75dp"
+        android:layout_margin="2dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+
+
+        android:text="Long: "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lblLat"
+
+        />
+
+    <!--long textView-->
+
+
+    <TextView
+        android:id="@+id/lrgTxLng"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_marginTop="1dp"
+
+        android:layout_toRightOf="@id/lblLng"
+        android:layout_below="@id/lrgTxLat"
+        />
+
+    <!--label posted-->
+
+
+    <TextView
+        android:id="@+id/lblPosted"
+        android:layout_height="30dp"
+        android:layout_width="75dp"
+        android:text="Posted: "
+        android:layout_margin="2dp"
+        android:layout_marginTop="1dp"
+        android:textColor="#acacac"
+
+        android:textStyle="bold"
+
+
+        android:layout_below="@id/lblLng"
+
+        />
+
+    <!--posted textView-->
+
+
+    <TextView
+        android:id="@+id/lrgTxtPosted"
+        android:layout_width="2000dp"
+        android:layout_height="30dp"
+        android:layout_margin="2dp"
+        android:layout_marginTop="1dp"
+
+        android:layout_toRightOf="@id/lblPosted"
+        android:layout_below="@id/lrgTxLng"
+        />
+
+    <!--map button-->
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Map"
+        android:id="@+id/buttonMap"
+        android:layout_below="@id/lblPosted"
+        />
+
+    <!--add favourites-->
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add To Favourites"
+        android:id="@+id/btnFav"
+        android:layout_below="@+id/buttonMap"/>
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Content"
+        android:id="@+id/btnReport"
+        android:layout_below="@+id/btnFav"/>
+
+
+</RelativeLayout>
+</ScrollView><!-- From: file:/home/glen/Desktop/Placed/app/src/main/res/layout/activity_display_single.xml -->

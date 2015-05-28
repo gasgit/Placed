@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="10dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:weightSum="1">
+
+
+
+    <!-- Id Label -->
+
+   <!-- <TextView
+        android:id="@+id/txid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:text="Id: "
+
+        android:textColor="#43bd00"
+        android:textSize="16sp"
+        android:textStyle="bold" />-->
+
+    <!-- Title label -->
+    <TextView
+        android:id="@+id/txtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title: "
+        android:textColor="#acacac"
+        android:layout_gravity="right"
+        android:layout_weight="1.75"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageView"
+       android:layout_gravity="left"
+       android:layout_weight="0.63"/>
+
+
+   <!-- <TextView
+        android:id="@+id/txplaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Place: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    &lt;!&ndash; Comments label &ndash;&gt;
+    <TextView
+        android:id="@+id/txcomments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Comment: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    &lt;!&ndash; Latitude label &ndash;&gt;
+
+
+    <TextView
+        android:id="@+id/txlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Lat: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+
+    &lt;!&ndash; Longitude label &ndash;&gt;
+    <TextView
+        android:id="@+id/txlng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Long: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Photo: "
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />-->
+</LinearLayout>
+<!-- From: file:/home/glen/Desktop/Placed/app/src/main/res/layout/item_place3.xml -->

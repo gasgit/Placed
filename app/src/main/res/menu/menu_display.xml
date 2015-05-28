@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ie.gmit.glen.placed.DisplayActivity">
+    <item android:id="@+id/action_settings"
+          android:title="Geo"
+          android:orderInCategory="100"
+          app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/oneKm"
+                  android:title="1km" />
+            <item android:id="@+id/fiveKm"
+                  android:title="5km" />
+            <item android:id="@+id/twentyKm"
+                  android:title="20km" />
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

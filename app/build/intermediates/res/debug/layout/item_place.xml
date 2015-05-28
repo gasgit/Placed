@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:weightSum="1">
+
+        <!--label title-->
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Title"
+        android:textColor="#acacac"
+       />
+
+    <!--label place-->
+
+
+    <TextView
+        android:id="@+id/lblPlace"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Place"
+        android:layout_below="@id/lblTitle"
+        android:textColor="#acacac"
+        />
+
+    <!--label posted-->
+
+
+    <TextView
+        android:id="@+id/lblPosted"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/Posted"
+        android:layout_below="@id/lblPlace"
+        android:textColor="#acacac"
+        />
+
+    <!--textView title-->
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/lblTitle"
+        />
+
+    <!--textView place-->
+
+    <TextView
+        android:id="@+id/txtPlace"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/lblTitle"
+        android:layout_toRightOf="@id/lblPlace"
+        />
+
+    <!--textView posted-->
+
+
+    <TextView
+        android:id="@+id/txtPosted"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/txtPlace"
+        android:layout_toRightOf="@id/lblPlace"
+        />
+
+    <!--imageview -->
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentRight="true"
+
+        android:contentDescription="@string/imageView"/>
+
+
+</RelativeLayout><!-- From: file:/home/glen/Desktop/Placed/app/src/main/res/layout/item_place.xml -->

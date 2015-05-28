@@ -1,0 +1,157 @@
+<ScrollView
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="ie.gmit.glen.placed.CreatePlace">
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+
+        <!--label latitude-->
+
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="113dp"
+            android:layout_weight="50"
+            android:text="Lat: "
+            android:textAlignment="center"/>
+
+
+        <!--text view latitude-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Latitude"
+            android:id="@+id/txtLat"
+            android:paddingTop="10dp"
+
+
+            />
+
+        <!--label lng-->
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+
+            android:text="Lng: "
+            android:paddingTop="10dp"
+
+
+            />
+<!--
+        text view longitude
+-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Longitude"
+            android:id="@+id/txtLng"
+            android:paddingTop="10dp"
+
+            />
+        <!--edit text title-->
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edTxtTitle"
+            android:hint="Title"
+            android:paddingTop="10dp"
+            android:inputType="textCapSentences"
+            />
+
+
+        <!--editText place-->
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edTxtPlace"
+
+            android:hint="Place"
+            android:paddingTop="10dp"
+            android:inputType="textCapSentences"
+
+
+            />
+
+        <!--edit text comment-->
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edTxtComment"
+            android:maxLines="10"
+            android:hint="Comment"
+            android:paddingTop="10dp"
+            android:inputType="textCapSentences"
+
+
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/backGroundImageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_launcher"
+            />
+
+
+
+
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+
+            android:text="Choose Image"
+            android:id="@+id/btnChooseImg"
+           />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:paddingTop="15dp"
+
+            android:id="@+id/btnCamera"
+          />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="Create"
+            android:id="@+id/btnCreate"
+            />
+
+
+
+    </TableLayout>
+
+</RelativeLayout>
+    </ScrollView>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ie.gmit.glen.placed"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ie.gmit.glen.placed.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ie.gmit.glen.placed.DisplayActivity"
+            android:label="@string/title_activity_display" >
+        </activity>
+        <activity
+            android:name="ie.gmit.glen.placed.CreatePlace"
+            android:label="@string/title_activity_create_place" >
+        </activity>
+        <!--
+        <activity
+            android:name=".myLocation"
+            android:label="@string/title_activity_my_location" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            android:name="ie.gmit.glen.placed.DisplaySingleActivity"
+            android:label="@string/title_activity_display_single"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBwxRo0kMic5z6XQFuobGEnj9hZ7-OjC8o" />
+
+        <activity
+            android:name="ie.gmit.glen.placed.MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name="ie.gmit.glen.placed.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="ie.gmit.glen.placed.Favourites"
+            android:label="@string/title_activity_favourites" >
+        </activity>
+        <activity
+            android:name="ie.gmit.glen.placed.FavouritesAdapter"
+            android:label="@string/title_activity_favourites_adapter" >
+        </activity>
+        <activity
+            android:name="ie.gmit.glen.placed.FavouriteSingle"
+            android:label="@string/title_activity_favourite_single" >
+        </activity>
+    </application>
+
+</manifest>
